@@ -1,2 +1,3 @@
-console.log("hello, TypeScript");
-const a: number = 1;
+import { hello } from "./hello";
+
+const func = () => console.log(hello);
